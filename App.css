@@ -1,7 +1,9 @@
-body{ 
-    
-}
+/*  */
+/* .nav_left{
+    width: 100px;
+} */
 
+/* Header.js */
 .header {
     background-color: aqua;
     position: sticky;
@@ -14,48 +16,28 @@ body{
     /* padding: 0px 12px; */
     /* justify-content: space-between;  */
 }
-
-.select{
-    /* background-color: blue; */
+.menu{
+    top: 0;
+    position: absolute center;
+    cursor: pointer;
 }
-
 .logo{
     /* display:inline-flex; */
-    /* align-items: center; */
     /* justify-content: center; */
     display: block; /* 이미지 block처리 후 마진 auto */
     margin: auto;
     top: 0;
     position: center;
     /* transform: translateY(-50%); */
-    /* margin: auto; */
+    margin: auto;
 }
 
-.menu{
-    top: 0;
-    position: absolute center;
-    cursor: pointer;
-}
 
-.nav_left{
-    width: 100px;
-}
-
-.footer{
-    width: 100%;
-    height: fit-content;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-
-}
-
-.footer_item{
+/* Main.js */
+.item_title, .item_sub, .item_desc, .item_select{
     display: flex;
+    justify-content: center;
 }
-
-.sns_logo{
-    
-    /* display: inline-block;
-    text-align: right; */
-    padding: 10px;
+.select{
+    /* background-color: blue; */
 }

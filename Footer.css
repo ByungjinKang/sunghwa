@@ -1,0 +1,30 @@
+
+.footer{
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+.footer_logo{
+    display: inline-block;
+    margin-right: 50%;
+}
+.footer_sns_div{
+    display: flex;
+    float: right;
+    text-align: right;
+}
+.footer_sns_line{
+    width: 100%;    
+}
+.footer_sns_logo{
+    padding: 10px;
+}
+.footer_desc{
+    align-items: center;
+    display: block;
+}
+.footer_top{
+    display: flex;
+    position: center;
+}
